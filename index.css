@@ -1,0 +1,233 @@
+@import url('http://fonts.cdnfonts.com/css/averta-blackitalic?styles=17723');
+*{
+    font-family: 'Averta-Regular', sans-serif;
+}
+
+body{
+    line-height: 1.5;
+}
+
+.hero-section{
+    background-image: url(./images/hero-bg.svg);
+    background-size: cover;
+    height: 800px;
+}
+
+
+.hero-div{
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+}
+
+.zuri-logo{
+    background: transparent;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    text-align: center;
+    margin: -1% 25%;
+}
+
+.btns-div{
+    
+    margin: 10% 7%;
+}
+
+h1{
+    font-size: 32px;
+    text-align: center;
+    color:#212529;
+    opacity: 0.9;
+}
+
+a{
+    color: #E7332B;
+    text-decoration: none;
+}
+
+p{
+    color: #514949;
+    opacity: 0.9;
+}
+
+p, button{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+
+button{
+    padding:1.8% 4%;
+}
+
+.training-btn{
+    background-color: #E7332B;
+    border: none;
+    color: #fff;
+   
+}
+
+.training-btn:hover{
+    background-color: #fff;
+    color: #E7332B;
+    border: 1px solid #E7332B;
+}
+
+
+
+.talents-btn{
+    background-color: #fff;
+    color: #E7332B;
+    border: 1px solid #E7332B;
+     margin-left: 3.5%;
+}
+
+.talents-btn:hover{
+    background-color: #E7332B;
+    color: #fff;
+}
+
+
+h4{
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 24px;
+    color: #E7332B;
+    margin-top: 141px;
+    text-align: center;
+}
+
+.slogan{
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #514949;
+    margin-top: 7px;
+    margin-bottom: 64px;
+}
+
+.cards-div{
+    display: flex;
+    margin: -23% 8.1%;
+    position: absolute;
+    z-index: 9;
+}
+
+
+.card-1 , .card-2 , .card-3{
+    margin-top: -7%;
+    margin-left: 2% ;
+    height: 496.6px;
+    width: 410px;
+   opacity: 1;
+    background-color: #FFFAFA;
+}
+
+.card-1-content , .card-2-content , .card-3-content{
+    padding: 8%;
+    margin: 10% 2% 0% 4%;
+}
+
+
+.card-1-content p, .card-2-content p, .card-3-content p{
+    margin: 13% 0% 0% 0%;
+}
+
+.dotted-bgs{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dotted-bg-1, .dotted-bg-2{
+    height: 500px;
+    width: 500px;
+   
+  
+   margin-top: -5%;
+}
+
+.dotted-bg-1{
+    margin-left: 2%;
+}
+
+.dotted-bg-2{
+    margin-left: 43%;
+}
+
+.footer-logo{
+    margin-top: 1%;
+}
+
+h3{
+    font-size: 16px;
+    color: #514949;
+}
+
+.footer-items{
+    display: flex;
+    justify-content: space-around;
+    margin: 19% 0% 5% 0%;
+    line-height: 1.5;
+    
+    
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.icons{
+    margin-left: 7%;
+    margin-top: -40%;
+}
+
+.icon-img{
+    width: 19px;
+    height: 19px;
+    
+}
+
+
+footer a, footer p{
+   font-size: 14px;
+}
+
+
+hr{
+    width: 80%;
+    opacity: 0.2;
+    border: 0.7px solid #514949;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 2.5%;
+    margin-bottom: 7%;
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+
+h1{
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+}
+
+}
