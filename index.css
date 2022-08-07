@@ -170,33 +170,29 @@ h3{
 
 .footer-items{
     display: flex;
-    justify-content: space-around;
-    margin: 19% 0% 5% 0%;
-    line-height: 1.5;
-    
+    justify-content: space-between;
+    padding: 19% 10% 3% 10%;
     
 }
 
 .footer-icons{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    
+    width: 100%;
 }
 
 
 .icons{
-    margin-left: 7%;
-    margin-top: -40%;
-}
-
-.icon-img{
-    width: 19px;
-    height: 19px;
+    
+    width: 25px;
+    height: 22px;
     
 }
 
 
-footer a, footer p{
-   font-size: 14px;
+footer .div-2 a, footer p{
+   font-size: 16px;
 }
 
 
