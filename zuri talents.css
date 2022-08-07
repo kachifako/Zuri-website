@@ -7,24 +7,27 @@
 
 /*rgb(255, 248, 229)  btn -rgb(88, 88, 88) footer bg- rgb(22, 22, 23)
 
+    color: #fff;
+
+
 skills p color- #787878
 
 box-shadow: 0 8px 30px hsla(0,0%,48%,.16)*/
 
 
 
-header, nav, .hero-section, .section-2, .skills-section{
+header, nav, .hero-section, .section-2{
     display: flex;
     align-items: center;
 }
 
 
 header{
-    padding: 0% 2%;
+    padding: 0% 7.5%;
     margin-top: -4%;
     justify-content: space-between;
-    width: 95%;
-    height: 90px;
+    width: 85%;
+    height: 80px;
     position: fixed;
     background-color: rgb(255, 255, 255);
     z-index: 10;
@@ -40,8 +43,9 @@ nav a{
     text-decoration: none;
     display: inline-block;
    padding: 2%;
-   font-size: 18px;
+   font-size: 16px;
     transition-timing-function: linear;
+    color: #787878;
 }
 
 nav a:active, nav a:hover{
@@ -49,51 +53,114 @@ nav a:active, nav a:hover{
 }
 
 
-nav button{
+nav button, .hire-btn{
     background-color: #e7332b;
     border: none;
     border-radius: 0% 0% 10px 0%;
     color: #fff;
-    width: 150px;
+    width: 180px;
     height: 42px;
     font-size: medium;
+}
+
+.hero-section .hire-btn{
+    margin-left: 8%;
+}
+
+.join-btn{
+    background-color: rgb(88, 88, 88);
+    width: 210px;
+    height: 42px;
+    font-size: medium;
+    border-radius: 0% 0% 10px 0%;
+    color: #fff;
+    margin-left: 2%;
 }
 
 
 h1{
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 600;
     color: #161617;
     width: 100%;
+    line-height: 1.2;
 }
 
 span{
     color: #e7332b;
 }
 
+p{
+    font-size: 19px;
+    color: #787878;
+    
+}
+
 .hero-section{
     margin-top: 4%;
 }
 
+.hero-section h1{
+    margin-left: 8%;
+}
+
+.hero-section .div-1{
+    width: 78%;
+    margin-left: 5%;
+}
+
 .hero-section p{
+    margin: -4.5% 0% 6% 8% ;
     width: 100%;
 }
 
-.hero-section img{
-    width: 43%;
-    margin: 10% 5% 3% 45%;
+.guy{
+    width: 49%;
+    margin: 17% 0% 3% 35%;
 }
 
+.curved-line-1{
+    width: 100px;
+    height: 40px;
+    margin: -18% 0% 6% 90.5%;
+}
+
+.hero-section .curved-line-2{
+    width: 290px;
+    height: 150px;
+    margin: -25% 0% 20% 69%;
+}
+
+
+
+
+
+        /* section 2 starts here */
 
 
 .section-2{
     background-image: url(./images/section2-bg.png);
     background-size: cover;
+    padding: 3%;
 }
 
-.section-2 img{
+.section-2 .div-1{
+    padding: 5%;
+}
+
+.section-2 p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: -3%;
+}
+
+.section-2 .div-2{
     width: 50%;
-    margin: 10% 0% 10% 40%;
+}
+
+.cycle{
+    width: 80%;
+    margin: 10% 0% 15% 10%;
 }
 
 .section-2 .country-flags img{
@@ -101,6 +168,170 @@ span{
     height: 50px;
     margin: 2%;
 }
+
+
+
+
+
+
+            /* section 3 (skills) starts here */
+
+.skills-section{
+    padding: 5% 0% 5% 8%;
+    width: 90%;
+}
+
+
+.skills-section .div-1, .skills-section .div-2{
+    display: flex;
+    
+   
+}
+
+.skills-section .div-1{
+    justify-content: space-around ;
+    width: 80%;
+} 
+
+
+.skills-section .div-1 .skill-tab{
+    padding: 0% 4%;
+}
+
+
+    .skill-tab{
+        width: fit-content;
+        height: 70px;
+        background-color: #fff;
+        border: none;
+        box-shadow: 0 8px 30px hsla(0,0%,48%,.16);
+        text-align: center;
+        color: #787878;
+        font-size: 19px;
+        border-radius: 10px;
+        margin: 0.5%;
+        padding: 0% 2.2%;
+        transition: margin-top 0.6s;
+    }
+
+    .skill-tab:hover{
+        margin-top: -1.5%;
+    }
+
+.skills-section .curved-line-2{
+    margin-left: 77%;
+    margin-top: -8%;
+}
+
+
+
+
+
+
+            /* section 4 (why us) starts here */
+
+.section-4{
+    background-color: rgb(255, 248, 229);
+    height: 960px;
+    padding-top: 5%;
+    padding-left: 2%;
+}
+
+.section-4 h1{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.cards-div, .cards-div-2{
+    display: flex;
+    margin: 2%;
+    justify-content: center;
+
+}
+
+.cards-div-2{
+    
+    z-index: 1;
+    position: absolute;
+    width: 95%;
+    margin-top: -0.2%;
+}
+
+.cards-div-2 .card{
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+
+.card{
+    width: 25%;
+    background-color: #fff;
+    border-radius: 0px 0px 20px 0px;
+    text-align: center;
+    padding: 4% 3% 2% 3%;
+    margin: 0.6%;
+}
+
+.card:hover{
+    background-color: #161617;
+    
+}
+
+.card p{
+    font-size: 18px;
+}
+
+.card p:hover{
+    color: #fff;
+}
+
+.curved-line-4{
+    margin-bottom: 20%;
+    margin-top: -2.5%;
+    margin: -2.5% 0% 16% -2.2%;
+}
+
+.btns-div{
+    margin-left: 37%;
+}
+
+
+            /* footer starts here */
+
+footer{
+    background-color: rgb(22, 22, 23);
+    
+    width: 90%;
+    padding: 4% 5% 2% 5%;
+}
+
+footer .div-1, footer .div-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+footer .div-2{
+    margin-top: 2%;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 15%;
+    
+}
+
+.footer-icons img{
+    width: 40px;
+    height: 40px;
+}
+
+footer p{
+    color: #fff;
+    font-size: 16px;
+    
+}
+
 
 
 
